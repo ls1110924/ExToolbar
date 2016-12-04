@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 扩展了Support-V7包中的Toolbar -->
+    <declare-styleable name="extoolbar_Toolbar">
+        <attr name="extoolbar_titleTextAppearance" format="reference" />
+        <attr name="extoolbar_subtitleTextAppearance" format="reference" />
+        <attr name="extoolbar_title" format="string" />
+        <attr name="extoolbar_subtitle" format="string" />
+        <attr name="android:gravity" />
+        <attr name="extoolbar_titleMargin" format="dimension" />
+        <attr name="extoolbar_titleMargins" format="dimension" />
+        <attr name="extoolbar_titleMarginStart" format="dimension" />
+        <attr name="extoolbar_titleMarginEnd" format="dimension" />
+        <attr name="extoolbar_titleMarginTop" format="dimension" />
+        <attr name="extoolbar_titleMarginBottom" format="dimension" />
+        <attr name="extoolbar_contentInsetStart" format="dimension" />
+        <attr name="extoolbar_contentInsetEnd" format="dimension" />
+        <attr name="extoolbar_contentInsetLeft" format="dimension" />
+        <attr name="extoolbar_contentInsetRight" format="dimension" />
+        <attr name="extoolbar_contentInsetStartWithNavigation" format="dimension" />
+        <attr name="extoolbar_contentInsetEndWithActions" format="dimension" />
+        <attr name="extoolbar_maxButtonHeight" format="dimension" />
+        <attr name="extoolbar_buttonGravity">
+            <flag name="top" value="0x30" />
+            <flag name="bottom" value="0x50" />
+        </attr>
+        <attr name="extoolbar_popupTheme" format="reference" />
+        <attr name="extoolbar_collapseIcon" format="reference" />
+        <attr name="extoolbar_collapseContentDescription" format="string" />
+        <attr name="extoolbar_navigationIcon" format="reference" />
+        <attr name="extoolbar_navigationContentDescription" format="string" />
+        <attr name="extoolbar_logo" format="reference" />
+        <attr name="extoolbar_logoDescription" format="string" />
+        <attr name="extoolbar_titleTextColor" format="color" />
+        <attr name="extoolbar_subtitleTextColor" format="color" />
+        <attr name="android:minHeight" />
+    </declare-styleable>
+
+</resources>

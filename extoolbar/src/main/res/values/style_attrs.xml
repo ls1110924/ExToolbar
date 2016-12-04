@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <eat-comment/>
+
+    <!-- 用于在Theme定义时包装ExToolbar的所有自定义属性 -->
+    <attr name="extoolbar_toolbarStyle" format="reference" />
+
+</resources>
